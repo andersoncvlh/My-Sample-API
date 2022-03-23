@@ -22,8 +22,8 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            brunobotelhobr/api_conversao:latest
-            brunobotelhobr/api_conversao:${{ github.run_number }}
+            andersonmrts/api_conversao:latest
+            andersonmrts/api_conversao:${{ github.run_number }}
 
   CD:
       runs-on: ubuntu-latest
@@ -40,7 +40,7 @@ jobs:
       - name: Activate K8s Cluster
         uses: okteto/namespace@master
         with:
-          namespace: brunobotelhobr
+          namespace: andersonmartins-mbciet
 
       - name: Create deployment
         uses: okteto/apply@master

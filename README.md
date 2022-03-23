@@ -1,5 +1,5 @@
 ## My Application URL
-    - https://api-service-brunobotelhobr.cloud.okteto.net/
+    - https://api-service-andersonmartins-mbciet.cloud.okteto.net/
 
 ## Local Environment
 
@@ -34,10 +34,10 @@ On your Repository, set the following secrets:
 
 On the file .github/workflows/main.yaml
 
-Set your repository name for image hosting (Mys are brunobotelhobr for exmaple)
+Set your repository name for image hosting (Mys are andersonmartins-mbciet for exmaple)
       tags: |
-            brunobotelhobr/api_conversao:latest
-            brunobotelhobr/api_conversao:${{ github.run_number }}
+            andersonmartins-mbciet/api_conversao:latest
+            andersonmartins-mbciet/api_conversao:${{ github.run_number }}
 
 With this you should be able to Go.
 

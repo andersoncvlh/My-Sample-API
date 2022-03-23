@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: andersonmartins-mbciet/my-sample-api:latest
+        image: andersonmrts/my-sample-api:latest
         ports:
         - containerPort: 8080
         livenessProbe:

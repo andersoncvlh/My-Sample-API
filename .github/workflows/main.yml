@@ -22,8 +22,8 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            andersonmrts/api_conversao:latest
-            andersonmrts/api_conversao:${{ github.run_number }}
+            andersonmrts/My-Sample-API:latest
+            andersonmrts/My-Sample-API:${{ github.run_number }}
 
   CD:
       runs-on: ubuntu-latest

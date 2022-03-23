@@ -36,8 +36,8 @@ On the file .github/workflows/main.yaml
 
 Set your repository name for image hosting (Mys are andersonmartins-mbciet for exmaple)
       tags: |
-            andersonmartins-mbciet/api_conversao:latest
-            andersonmartins-mbciet/api_conversao:${{ github.run_number }}
+            andersonmartins-mbciet/My-Sample-API:latest
+            andersonmartins-mbciet/My-Sample-API:${{ github.run_number }}
 
 With this you should be able to Go.
 
